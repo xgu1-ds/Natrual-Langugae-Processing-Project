@@ -42,7 +42,23 @@ The 2020-03-20 release contains over 29,000 full text articles. Here are the lis
     Metadata file -- 60Mb
     Readme
 
-All paper are in json format. Schema shows here: https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-03-13/json_schema.txt
+All paper are in json format. Schema shows here: 
+* <https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-03-13/json_schema.txt>
+
+## References
+
+* Kaggle COVID-19 Open Research Dataset Challenge (CORD-19) (2020). Retrieved from 
+<https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge>
+
+* Holshue, M., DeBolt, C., Lindquist, S., et al. (January 31, 2020). First Case of 2019 Novel 
+Coronavirus in the United States. The New England Journal of Medicine. 
+<https://www.nejm.org/doi/full/10.1056/NEJMoa2001191>
+
+* World Health Organization COVID-19 data dashboard (2020) Retrieved from 
+<https://covid19.who.int/>
+
+* Etzioni, O., Decario, N., (March 28, 2020). AI Can Help Scientists Find a Covid-19 Vaccine. 
+Wired. <https://www.wired.com/story/opinion-ai-can-help-find-scientists-find-a-covid-19-vaccine/>
 
 
 
