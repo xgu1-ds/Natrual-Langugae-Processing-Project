@@ -1,10 +1,15 @@
 Natural Language Processing 
+
 Indiana University
+
 Team Project
+
 Spring 2020 (#32961)
 
 David Kurniadi
+
 Rene Lizarraga
+
 Xin Gu
 
 # COVID-19 Open Research Dataset Challenge (CORD-19)
