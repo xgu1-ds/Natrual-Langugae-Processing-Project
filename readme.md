@@ -29,3 +29,20 @@ Our contribution is to apply Natural Language Processing (NLP) techniques to the
 We compare 3 approaches to answer the task questions, evaluate the results, and assess the pros and cons of each approach.  The first approach applies Latent Dirichlet Allocation (LDA) to retrieve relevant medical articles, leaving it to the researcher to read the article in order to find the task answers within the article. The second approach applies Global Vectors of Work Representation (GloVe) and Cosine Similarity together to evaluate the corpus to retrieve relevant text that answers the questions.  The third approach combines the first two approaches; Latent Dirichlet Allocation (LDA) retrieves the relevant medical articles and then runs GloVe with Cosine Similarity on those articles to provide the text to answer the questions. 
 We then evaluate the results by reading the retrieved article and text from each approach and evaluate if the question is answered.  
 
+## Data pre-processing
+
+Data Source: https://pages.semanticscholar.org/coronavirus-research
+
+The 2020-03-20 release contains over 29,000 full text articles. Here are the list of data files:
+
+    Commercial use subset (includes PMC content) -- 9118 full text, 183Mb
+    Non-commercial use subset (includes PMC content) -- 2353 full text, 41Mb
+    Custom license subset -- 16959 full text, 345Mb
+    bioRxiv/medRxiv subset (pre-prints that are not peer reviewed) -- 885 full text, 14Mb
+    Metadata file -- 60Mb
+    Readme
+
+All paper are in json format. Schema shows here: https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-03-13/json_schema.txt
+
+
+
