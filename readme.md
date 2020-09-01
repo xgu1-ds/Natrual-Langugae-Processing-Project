@@ -26,6 +26,7 @@ Artificial Intelligence (AI) can help medical researchers fight the virus by sco
 13.	Effectiveness of personal protective equipment (PPE) and its usefulness to reduce risk of transmission in health care and community settings
 14.	Role of the environment in transmission
 Our contribution is to apply Natural Language Processing (NLP) techniques to the journal corpus to help scientists and researchers get quick answers to these questions about COVID-19 to expedite their goals. 
+
 We compare 3 approaches to answer the task questions, evaluate the results, and assess the pros and cons of each approach.  The first approach applies Latent Dirichlet Allocation (LDA) to retrieve relevant medical articles, leaving it to the researcher to read the article in order to find the task answers within the article. The second approach applies Global Vectors of Work Representation (GloVe) and Cosine Similarity together to evaluate the corpus to retrieve relevant text that answers the questions.  The third approach combines the first two approaches; Latent Dirichlet Allocation (LDA) retrieves the relevant medical articles and then runs GloVe with Cosine Similarity on those articles to provide the text to answer the questions. 
 We then evaluate the results by reading the retrieved article and text from each approach and evaluate if the question is answered.  
 
